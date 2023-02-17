@@ -1,0 +1,15 @@
+//José María Zárate Cordero Amador
+//794RR037
+
+var num = prompt("Ingrese el número de lados: ");;
+var caracter = prompt("Ingrese el caracter: ");
+var num2 = 1
+for (var i = 0; i < num; i++){
+    var columna = "";
+    for (var j = 0; j < num; j++){
+        columna += caracter
+        
+    }
+    console.log(columna)
+}
+    

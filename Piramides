@@ -1,0 +1,10 @@
+var columnas = 5;
+var piramide = '';
+var caracter = prompt("Ingrese un caracter: ")
+for (var i = 1; i <= columnas; i++) {
+for (var j = 1; j <= i; j++) {
+        piramide += caracter + ' ';
+    }
+    console.log(piramide);
+    piramide = '';
+}

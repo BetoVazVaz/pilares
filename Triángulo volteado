@@ -1,0 +1,11 @@
+var lados = 5;
+var piramide = "";
+var caracter = prompt("Ingrese un caracter: ")
+for (var i = 0; i < lados; i++) {
+  // printing star
+  for (var j = 0; j < lados - i; j++) {
+    piramide += caracter + " ";
+  }
+  piramide += "\n";
+}
+console.log(piramide);
